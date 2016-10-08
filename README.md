@@ -4,11 +4,11 @@
 This project create practice for Data Collection and Analysis System for Running Project (my graduation project).
 
 ## Hardware
-* ** NodeMCU V2
+- NodeMCU V2
 
 ## Software
-* ** ArduinoIDE
-* ** PlatformIO
+- ArduinoIDE
+- PlatformIO
 
 ## Using with PlatformIO
 - Install PlatformIO
