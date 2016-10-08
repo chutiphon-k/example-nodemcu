@@ -9,6 +9,7 @@ void setup(){
     Serial.println(i);
     delay(1000);
   }
+  Serial.print("Start ");
   pinMode(LED, OUTPUT);
 }
 
