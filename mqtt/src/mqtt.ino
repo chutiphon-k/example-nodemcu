@@ -1,13 +1,13 @@
 #include <ESP8266WiFi.h>
 #include <PubSubClient.h>
 
-const char* ssid = "ssid";
-const char* password = "password";
+const char* ssid = "bach1";
+const char* password = "aaaaaaaaaa";
 
 #define mqtt_server "m13.cloudmqtt.com"
 #define mqtt_port 15174
-#define mqtt_user "mqtt_user"
-#define mqtt_password "mqtt_password"
+#define mqtt_user "TEST"
+#define mqtt_password "12345"
 
 #define LED_PIN 4
 
@@ -40,7 +40,7 @@ void setup(){
 void loop(){
   if(!client.connected()){
     Serial.print("Attemping MQTT connecting...");
-    if(client.connect("ESP8266Client", mqtt_user, mqtt_password)){
+    if(client.connect("ESP8266Client2", mqtt_user, mqtt_password)){
       Serial.println("connected");
       client.subscribe("/ESP/LED");
     } else{
