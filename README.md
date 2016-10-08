@@ -3,13 +3,22 @@
 ## Motivation
 This project create practice for Data Collection and Analysis System for Running Project (my graduation project).
 
-## Hardware
+## Hardwares
 - NodeMCU V2
+- LDR Sensor
+- LED
+- Reg
+- Resistor
 
-## Software
+## Softwares
 - ArduinoIDE
 - [PlatformIO](http://platformio.org)
 - [CloudMQTT](https://www.cloudmqtt.com)
+
+## Libraries
+- ESP8266WiFi
+- PubSubClient
+- ArduinoJson
 
 ## Using with PlatformIO
 - Install PlatformIO
