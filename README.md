@@ -7,7 +7,6 @@ This project create practice for Data Collection and Analysis System for Running
 - NodeMCU V2
 - LDR Sensor
 - LED
-- Reg
 - Resistor
 
 ## Softwares
