@@ -23,7 +23,7 @@ This project create practice for Data Collection and Analysis System for Running
 - Install PlatformIO
 - Go to this project directory
 - Go to src folder
-- open file what you wish
+- Open file what you wish
 
 ```bash
 git clone https://github.com/chutiphon-k/example_nodemcu.git
