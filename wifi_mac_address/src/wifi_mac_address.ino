@@ -1,11 +1,10 @@
 #include <ESP8266WiFi.h>
 
-const char* ssid     = "bach1";
-const char* password = "aaaaaaaaaa";
+const char* ssid     = "KUWIN";
+const char* password = 0;
 
 void setup() {
   Serial.begin(115200);
-  delay(10);
   Serial.println();
   Serial.println();
   Serial.print("Connecting to ");

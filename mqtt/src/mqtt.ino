@@ -4,8 +4,8 @@
 const char* ssid = "bach1";
 const char* password = "aaaaaaaaaa";
 
-#define mqtt_server "m13.cloudmqtt.com"
-#define mqtt_port 15174
+#define mqtt_server "192.168.2.42"
+#define mqtt_port 1883
 #define mqtt_user "TEST"
 #define mqtt_password "12345"
 
@@ -40,7 +40,8 @@ void setup(){
 void loop(){
   if(!client.connected()){
     Serial.print("Attemping MQTT connecting...");
-    if(client.connect("ESP8266Client2", mqtt_user, mqtt_password)){
+    // if(client.connect("ESP8266Client2", mqtt_user, mqtt_password)){
+    if(client.connect("ESP8266Client2")){
       Serial.println("connected");
       client.subscribe("/ESP/LED");
     } else{
